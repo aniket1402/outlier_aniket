@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'outlier_aniket',
   packages = ['outlier_aniket'],
-  version = '0.5',
+  version = '0.7',
   license='MIT',
   description = 'Outlier Removal using Z-score or IQR',
   author = 'Aniket Gupta',
   author_email = 'aniketgupta1495@gmail.com',
   long_description_content_type="text/markdown",
   url = 'https://github.com/aniket1402/outlier_aniket.git',
-  download_url = 'https://github.com/aniket1402/outlier_aniket/archive/v_05.tar.gz',
+  download_url = 'https://github.com/aniket1402/outlier_aniket/archive/v_07.tar.gz',
   keywords = ['Outlier Removal', 'Row Removal'],
   install_requires=[
           'numpy',
